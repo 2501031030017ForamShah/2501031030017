@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EliteDrive - Trade-In</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">
+            <span class="logo-icon">🚗</span> <strong>EliteDrive</strong>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Cars</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#" class="active">Trade-In</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <button class="btn-primary">Book Test Drive</button>
+    </header>
+
+    <main class="container">
+        <section class="title-section">
+            <h1>Trade-In Your Vehicle</h1>
+            <p>Get an instant estimate for your current vehicle</p>
+        </section>
+
+        <div class="stepper">
+            <div class="step active">1</div>
+            <div class="line"></div>
+            <div class="step">2</div>
+            <div class="line"></div>
+            <div class="step">3</div>
+        </div>
+
+        <div class="form-card">
+            <h2>Vehicle Information</h2>
+            <form class="form-grid">
+                <div class="form-group">
+                    <label>Year *</label>
+                    <input type="text" placeholder="">
+                </div>
+                <div class="form-group">
+                    <label>Make *</label>
+                    <input type="text" placeholder="e.g., Toyota, BMW, Tesla">
+                </div>
+                <div class="form-group">
+                    <label>Model *</label>
+                    <input type="text" placeholder="e.g., Camry, X5, Model 3">
+                </div>
+                <div class="form-group">
+                    <label>Trim Level</label>
+                    <input type="text" placeholder="e.g., XLE, M Sport, Performance">
+                </div>
+                <div class="form-group">
+                    <label>Mileage *</label>
+                    <input type="text" placeholder="Current mileage">
+                </div>
+                <div class="form-group">
+                    <label>Condition *</label>
+                    <select>
+                        <option value="">Select condition...</option>
+                        <option value="excellent">Excellent</option>
+                        <option value="good">Good</option>
+                        <option value="fair">Fair</option>
+                    </select>
+                </div>
+            </form>
+        </div>
+    </main>
+
+</body>
+</html>
