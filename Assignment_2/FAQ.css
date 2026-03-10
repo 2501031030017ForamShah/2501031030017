@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+    background-color: #fcfcfc;
+    color: #333;
+}
+
+/* Navbar (Consistent with previous pages) */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 80px;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.nav-links a.active {
+    color: #2563eb;
+}
+
+.btn-primary {
+    background-color: #2563eb;
+    color: white;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+/* Container */
+.container {
+    max-width: 800px;
+    margin: 60px auto;
+    text-align: center;
+}
+
+.title-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.title-section p {
+    color: #666;
+    margin-bottom: 40px;
+}
+
+/* Filter Tabs */
+.filter-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 50px;
+}
+
+.tab {
+    padding: 10px 22px;
+    border-radius: 25px;
+    border: none;
+    background: #eef2f6;
+    color: #666;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.tab.active {
+    background: #2563eb;
+    color: white;
+}
+
+.tab:hover:not(.active) {
+    background: #e2e8f0;
+}
+
+/* FAQ Accordion List */
+.faq-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.faq-item {
+    background: white;
+    padding: 20px 25px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    border: 1px solid #f0f0f0;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.faq-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+/* Category Tags */
+.category-tag {
+    font-size: 0.75rem;
+    padding: 4px 12px;
+    border-radius: 6px;
+    margin-right: 20px;
+    font-weight: 600;
+}
+
+.buying {
+    background-color: #eff6ff;
+    color: #3b82f6;
+}
+
+.financing {
+    background-color: #f0f9ff;
+    color: #0ea5e9;
+}
+
+.question {
+    flex-grow: 1;
+    font-weight: 500;
+    color: #1f2937;
+}
+
+.chevron {
+    color: #9ca3af;
+    font-size: 1.2rem;
+}
