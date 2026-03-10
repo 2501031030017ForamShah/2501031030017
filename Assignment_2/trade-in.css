@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #fcfcfc;
+    color: #333;
+}
+
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 80px;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.nav-links a.active {
+    color: #3b82f6;
+}
+
+.btn-primary {
+    background-color: #2563eb;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+/* Container & Header Text */
+.container {
+    max-width: 900px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.title-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.title-section p {
+    color: #666;
+    margin-bottom: 40px;
+}
+
+/* Stepper Styling */
+.stepper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.step {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #9ca3af;
+}
+
+.step.active {
+    background: #2563eb;
+    color: white;
+}
+
+.line {
+    width: 60px;
+    height: 2px;
+    background: #e5e7eb;
+    margin: 0 10px;
+}
+
+/* Form Card Styling */
+.form-card {
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+    text-align: left;
+}
+
+.form-card h2 {
+    margin-bottom: 25px;
+    font-size: 1.5rem;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.form-group input, .form-group select {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    color: #333;
+}
+
+.form-group input::placeholder {
+    color: #ccc;
+}
